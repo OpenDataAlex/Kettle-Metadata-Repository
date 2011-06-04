@@ -1,0 +1,23 @@
+Kettle Metadata Repository
+------------------------------------------
+
+The Kettle Metadata Repository is intended to fill a gap in that there are not that
+many Metadata Repository tools available to the open source community.  The backend
+work is being built in Pentaho's Kettle, a versitile ETL tool.  The frontend is
+being built with the Symfony PHP Framework.  Utilising both tools allows for great
+flexibility without sacrificing the end goals of the project.
+
+The goal of KMR is to provide a central repository for metadata information.
+Metadata is usually defined as 'data about data' and while technically true,
+it requires a touch of refinement.  Metadata is the definitions, relationships,
+and usage of a given piece of data.  For the purposes of this project, this
+will be further defined as:
+
+1)  How the data is defined within the system that is storing it (i.e. column type, 
+    definition entered in the database, etc.).
+2)  What is being stored for the given data (i.e. minimum and maximum values, 
+    distinct values, other quality statistics, etc.).
+3)  Business definitions for the data
+4)  How the data is utilized in the business (i.e. how the data moves from a
+    source system through to the data warehouse, data marts, and finally to
+    end user solutions.
