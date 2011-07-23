@@ -1,0 +1,130 @@
+Jun 30 20:15:58 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Jun 30 20:15:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 30 20:15:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 30 20:15:58 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Jun 30 20:15:58 symfony [info] {sfPHPView} Render "/home/ameadows/repos/Kettle-Metadata-Repository/frontend/kettle-mr/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+Jun 30 20:15:58 symfony [info] {sfPHPView} Decorate content with "/home/ameadows/repos/Kettle-Metadata-Repository/frontend/kettle-mr/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Jun 30 20:15:58 symfony [info] {sfPHPView} Render "/home/ameadows/repos/Kettle-Metadata-Repository/frontend/kettle-mr/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Jun 30 20:15:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 30 20:15:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 30 20:15:58 symfony [info] {sfWebDebugLogger} Configuration 49.32 ms (9)
+Jun 30 20:15:58 symfony [info] {sfWebDebugLogger} Factories 47.49 ms (1)
+Jun 30 20:15:58 symfony [info] {sfWebDebugLogger} Action "default/index" 0.07 ms (1)
+Jun 30 20:15:58 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 4.80 ms (1)
+Jun 30 20:15:58 symfony [info] {sfWebResponse} Send content (29670 o)
+Jul 01 18:09:48 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Jul 01 18:09:48 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 01 18:09:48 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 01 18:09:48 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Jul 01 18:09:48 symfony [info] {sfPHPView} Render "/home/ameadows/repos/Kettle-Metadata-Repository/frontend/kettle-mr/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+Jul 01 18:09:48 symfony [info] {sfPHPView} Decorate content with "/home/ameadows/repos/Kettle-Metadata-Repository/frontend/kettle-mr/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Jul 01 18:09:48 symfony [info] {sfPHPView} Render "/home/ameadows/repos/Kettle-Metadata-Repository/frontend/kettle-mr/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Jul 01 18:09:48 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 01 18:09:48 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 01 18:09:48 symfony [info] {sfWebDebugLogger} Configuration 66.50 ms (10)
+Jul 01 18:09:48 symfony [info] {sfWebDebugLogger} Factories 132.89 ms (1)
+Jul 01 18:09:48 symfony [info] {sfWebDebugLogger} Action "default/index" 0.13 ms (1)
+Jul 01 18:09:48 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 13.33 ms (1)
+Jul 01 18:09:48 symfony [info] {sfWebResponse} Send content (29770 o)
+Jul 01 21:58:02 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Jul 01 21:58:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 01 21:58:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 01 21:58:03 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Jul 01 21:58:04 symfony [info] {sfPHPView} Render "/home/ameadows/repos/Kettle-Metadata-Repository/frontend/kettle-mr/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+Jul 01 21:58:04 symfony [info] {sfPHPView} Decorate content with "/home/ameadows/repos/Kettle-Metadata-Repository/frontend/kettle-mr/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Jul 01 21:58:04 symfony [info] {sfPHPView} Render "/home/ameadows/repos/Kettle-Metadata-Repository/frontend/kettle-mr/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Jul 01 21:58:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 01 21:58:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 01 21:58:04 symfony [info] {sfWebDebugLogger} Configuration 1.93 ms (9)
+Jul 01 21:58:04 symfony [info] {sfWebDebugLogger} Factories 1245.24 ms (1)
+Jul 01 21:58:04 symfony [info] {sfWebDebugLogger} Action "default/index" 0.10 ms (1)
+Jul 01 21:58:04 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 564.52 ms (1)
+Jul 01 21:58:04 symfony [info] {sfWebResponse} Send content (29575 o)
+Jul 02 16:00:06 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Jul 02 16:00:06 symfony [info] {myUser} Automatic user logout due to timeout
+Jul 02 16:00:06 symfony [info] {myUser} User is not authenticated
+Jul 02 16:00:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 02 16:00:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 02 16:00:06 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Jul 02 16:00:06 symfony [info] {sfPHPView} Render "/home/ameadows/repos/Kettle-Metadata-Repository/frontend/kettle-mr/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+Jul 02 16:00:06 symfony [info] {sfPHPView} Decorate content with "/home/ameadows/repos/Kettle-Metadata-Repository/frontend/kettle-mr/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Jul 02 16:00:06 symfony [info] {sfPHPView} Render "/home/ameadows/repos/Kettle-Metadata-Repository/frontend/kettle-mr/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Jul 02 16:00:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 02 16:00:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 02 16:00:06 symfony [info] {sfWebDebugLogger} Configuration 1.51 ms (9)
+Jul 02 16:00:06 symfony [info] {sfWebDebugLogger} Factories 620.44 ms (1)
+Jul 02 16:00:06 symfony [info] {sfWebDebugLogger} Action "default/index" 0.09 ms (1)
+Jul 02 16:00:06 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 119.88 ms (1)
+Jul 02 16:00:06 symfony [info] {sfWebResponse} Send content (30479 o)
+Jul 02 17:11:26 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Jul 02 17:11:26 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 02 17:11:26 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 02 17:11:26 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Jul 02 17:11:26 symfony [info] {sfPHPView} Render "/home/ameadows/repos/Kettle-Metadata-Repository/frontend/kettle-mr/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+Jul 02 17:11:26 symfony [info] {sfPHPView} Decorate content with "/home/ameadows/repos/Kettle-Metadata-Repository/frontend/kettle-mr/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Jul 02 17:11:26 symfony [info] {sfPHPView} Render "/home/ameadows/repos/Kettle-Metadata-Repository/frontend/kettle-mr/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Jul 02 17:11:26 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 02 17:11:26 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 02 17:11:26 symfony [info] {sfWebDebugLogger} Configuration 1.51 ms (9)
+Jul 02 17:11:26 symfony [info] {sfWebDebugLogger} Factories 831.22 ms (1)
+Jul 02 17:11:26 symfony [info] {sfWebDebugLogger} Action "default/index" 0.15 ms (1)
+Jul 02 17:11:26 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 60.62 ms (1)
+Jul 02 17:11:26 symfony [info] {sfWebResponse} Send content (29572 o)
+Jul 03 08:41:08 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Jul 03 08:41:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 03 08:41:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 03 08:41:08 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Jul 03 08:41:08 symfony [info] {sfPHPView} Render "/home/ameadows/repos/Kettle-Metadata-Repository/frontend/kettle-mr/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+Jul 03 08:41:08 symfony [info] {sfPHPView} Decorate content with "/home/ameadows/repos/Kettle-Metadata-Repository/frontend/kettle-mr/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Jul 03 08:41:08 symfony [info] {sfPHPView} Render "/home/ameadows/repos/Kettle-Metadata-Repository/frontend/kettle-mr/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Jul 03 08:41:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 03 08:41:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 03 08:41:08 symfony [info] {sfWebDebugLogger} Configuration 1.08 ms (9)
+Jul 03 08:41:08 symfony [info] {sfWebDebugLogger} Factories 329.38 ms (1)
+Jul 03 08:41:08 symfony [info] {sfWebDebugLogger} Action "default/index" 0.11 ms (1)
+Jul 03 08:41:08 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 245.55 ms (1)
+Jul 03 08:41:09 symfony [info] {sfWebResponse} Send content (29574 o)
+Jul 03 20:37:35 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Jul 03 20:37:36 symfony [info] {myUser} Automatic user logout due to timeout
+Jul 03 20:37:36 symfony [info] {myUser} User is not authenticated
+Jul 03 20:37:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 03 20:37:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 03 20:37:37 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Jul 03 20:37:37 symfony [info] {sfPHPView} Render "/home/ameadows/repos/Kettle-Metadata-Repository/frontend/kettle-mr/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+Jul 03 20:37:38 symfony [info] {sfPHPView} Decorate content with "/home/ameadows/repos/Kettle-Metadata-Repository/frontend/kettle-mr/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Jul 03 20:37:38 symfony [info] {sfPHPView} Render "/home/ameadows/repos/Kettle-Metadata-Repository/frontend/kettle-mr/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Jul 03 20:37:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 03 20:37:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 03 20:37:38 symfony [info] {sfWebDebugLogger} Configuration 1.15 ms (9)
+Jul 03 20:37:38 symfony [info] {sfWebDebugLogger} Factories 1703.45 ms (1)
+Jul 03 20:37:38 symfony [info] {sfWebDebugLogger} Action "default/index" 0.07 ms (1)
+Jul 03 20:37:38 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 547.77 ms (1)
+Jul 03 20:37:38 symfony [info] {sfWebResponse} Send content (30481 o)
+Jul 04 08:10:20 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Jul 04 08:10:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 04 08:10:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 04 08:10:20 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Jul 04 08:10:20 symfony [info] {sfPHPView} Render "/home/ameadows/repos/Kettle-Metadata-Repository/frontend/kettle-mr/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+Jul 04 08:10:20 symfony [info] {sfPHPView} Decorate content with "/home/ameadows/repos/Kettle-Metadata-Repository/frontend/kettle-mr/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Jul 04 08:10:20 symfony [info] {sfPHPView} Render "/home/ameadows/repos/Kettle-Metadata-Repository/frontend/kettle-mr/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Jul 04 08:10:20 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 04 08:10:20 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 04 08:10:20 symfony [info] {sfWebDebugLogger} Configuration 1.81 ms (9)
+Jul 04 08:10:20 symfony [info] {sfWebDebugLogger} Factories 488.88 ms (1)
+Jul 04 08:10:20 symfony [info] {sfWebDebugLogger} Action "default/index" 0.08 ms (1)
+Jul 04 08:10:20 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 207.76 ms (1)
+Jul 04 08:10:20 symfony [info] {sfWebResponse} Send content (29574 o)
+Jul 23 12:04:49 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Jul 23 12:04:49 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 23 12:04:49 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 23 12:04:49 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Jul 23 12:04:49 symfony [info] {sfPHPView} Render "/home/ameadows/repos/Kettle-Metadata-Repository/frontend/kettle-mr/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+Jul 23 12:04:49 symfony [info] {sfPHPView} Decorate content with "/home/ameadows/repos/Kettle-Metadata-Repository/frontend/kettle-mr/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Jul 23 12:04:49 symfony [info] {sfPHPView} Render "/home/ameadows/repos/Kettle-Metadata-Repository/frontend/kettle-mr/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Jul 23 12:04:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 23 12:04:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 23 12:04:49 symfony [info] {sfWebDebugLogger} Configuration 1.81 ms (9)
+Jul 23 12:04:49 symfony [info] {sfWebDebugLogger} Factories 71.66 ms (1)
+Jul 23 12:04:49 symfony [info] {sfWebDebugLogger} Action "default/index" 0.44 ms (1)
+Jul 23 12:04:49 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 22.25 ms (1)
+Jul 23 12:04:49 symfony [info] {sfWebResponse} Send content (29768 o)
