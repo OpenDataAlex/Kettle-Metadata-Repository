@@ -1,0 +1,115 @@
+BusinessFormulaLogic:
+  actAs:
+  columns:
+    business_formula_logic_id:  {  type:  integer, primary:  true, notnull:  true }
+    formula_name:  {  type:  integer, notnull:  true }
+    formula_description:  {  type:  string(45), notnull:  true }
+  relations:
+    TableColumn:  { class:  TableColumn, refClass:  FormulaColumn, local:  business_formula_logic_id, foreign:  table_column_business_formula_logic_id}
+    FormulaColumnUsageType:  { class:  FormulaColumnUsageType, refClass:  FormulaColumn, local:  business_formula_logic_id, foreign:  formula_column_usage_type_business_formula_logic_id}
+  indexes:
+BusinessLogic:
+  actAs:
+  columns:
+    business_logic_id:  {  type:  integer, primary:  true, notnull:  true }
+    logical_name:  {  type:  string(45), notnull:  true }
+    description:  {  type:  not-supported-16, notnull:  true }
+    revision:  {  type:  integer, notnull:  true }
+  relations:
+    TableColumn:  { class:  TableColumn, refClass:  LogicalColumn, local:  business_logic_id, foreign:  table_column_business_logic_id}
+  indexes:
+ColumnStats:
+  actAs:
+  columns:
+    column_statistic_id:  {  type:  integer, primary:  true, notnull:  true }
+    column_id:  {  type:  integer, notnull:  true }
+    column_min:  {  type:  string, notnull:  true }
+    column_max:  {  type:  string, notnull:  true }
+    column_regex:  {  type:  string, notnull:  true }
+    column_distinct_value:  {  type:  integer, notnull:  true }
+    column_mart_usage:  {  type:  integer, notnull:  true }
+    column_solution_usage:  {  type:  integer, notnull:  true }
+  relations:
+    ColumnId:  { class:  TableColumn, local:  column_id, foreign:  column_id, foreignAlias:  ColumnColumnStatisticFk }
+  indexes:
+FormulaColumn:
+  actAs:
+  columns:
+    column_id:  {  type:  integer, primary:  true, notnull:  true }
+    business_formula_logic_id:  {  type:  integer, primary:  true, notnull:  true }
+    column_usage:  {  type:  integer, notnull:  true }
+    formula_column_usage_type_id:  {  type:  integer, notnull:  true }
+  relations:
+    ColumnId:  { class:  TableColumn, local:  column_id, foreign:  column_id, foreignAlias:  ColumnFormulaColumnFk }
+    BusinessFormulaLogicId:  { class:  BusinessFormulaLogic, local:  business_formula_logic_id, foreign:  business_formula_logic_id, foreignAlias:  BusinessFormulaLogicFormulaColumnFk }
+    FormulaColumnUsageTypeId:  { class:  FormulaColumnUsageType, local:  formula_column_usage_type_id, foreign:  formula_column_usage_type_id, foreignAlias:  FormulaColumnUsageTypeFormulaColumnFk }
+  indexes:
+FormulaColumnUsageType:
+  actAs:
+  columns:
+    formula_column_usage_type_id:  {  type:  integer, primary:  true, notnull:  true }
+    formula_column_usage_type:  {  type:  string, notnull:  true }
+  relations:
+    TableColumn:  { class:  TableColumn, refClass:  FormulaColumn, local:  formula_column_usage_type_id, foreign:  table_column_formula_column_usage_type_id}
+    BusinessFormulaLogic:  { class:  BusinessFormulaLogic, refClass:  FormulaColumn, local:  formula_column_usage_type_id, foreign:  business_formula_logic_formula_column_usage_type_id}
+  indexes:
+LogicalColumn:
+  actAs:
+  columns:
+    column_id:  {  type:  integer, primary:  true, notnull:  true }
+    business_logic_id:  {  type:  integer, primary:  true, notnull:  true }
+  relations:
+    ColumnId:  { class:  TableColumn, local:  column_id, foreign:  column_id, foreignAlias:  ColumnLogicalColumnFk }
+    BusinessLogicId:  { class:  BusinessLogic, local:  business_logic_id, foreign:  business_logic_id, foreignAlias:  BusinessLogicLogicalColumnFk }
+  indexes:
+SchemaList:
+  actAs:
+  columns:
+    schema_id:  {  type:  integer, primary:  true, notnull:  true }
+    schema_database_type:  {  type:  string, notnull:  true }
+    server:  {  type:  string, notnull:  true }
+    schema_type_id:  {  type:  integer, notnull:  true }
+  relations:
+    SchemaTypeId:  { class:  SchemaType, local:  schema_type_id, foreign:  schema_type_id, foreignAlias:  SchemaTypeSchemaListFk }
+  indexes:
+SchemaType:
+  actAs:
+  columns:
+    schema_type_id:  {  type:  integer, primary:  true, notnull:  true }
+    schema_type:  {  type:  string, notnull:  true }
+  relations:
+  indexes:
+TableColumn:
+  actAs:
+  columns:
+    column_id:  {  type:  integer, primary:  true, notnull:  true }
+    column_name:  {  type:  integer, notnull:  true }
+    column_type:  {  type:  integer, notnull:  true }
+    table_id:  {  type:  integer, notnull:  true }
+    revision:  {  type:  integer, notnull:  true }
+  relations:
+    TableId:  { class:  TableName, local:  table_id, foreign:  table_id, foreignAlias:  TableColumnFk }
+    BusinessLogic:  { class:  BusinessLogic, refClass:  LogicalColumn, local:  column_id, foreign:  business_logic_column_id}
+    BusinessFormulaLogic:  { class:  BusinessFormulaLogic, refClass:  FormulaColumn, local:  column_id, foreign:  business_formula_logic_column_id}
+    FormulaColumnUsageType:  { class:  FormulaColumnUsageType, refClass:  FormulaColumn, local:  column_id, foreign:  formula_column_usage_type_column_id}
+  indexes:
+TableName:
+  actAs:
+  columns:
+    table_id:  {  type:  integer, primary:  true, notnull:  true }
+    schema_id:  {  type:  integer, notnull:  true }
+    table_name:  {  type:  string(45), notnull:  true }
+    table_type:  {  type:  integer, notnull:  true }
+  relations:
+    SchemaId:  { class:  SchemaList, local:  schema_id, foreign:  schema_id, foreignAlias:  SchemaTableFk }
+  indexes:
+TableStats:
+  actAs:
+  columns:
+    table_statistic_id:  {  type:  integer, primary:  true, notnull:  true }
+    table_id:  {  type:  integer, notnull:  true }
+    row_count:  {  type:  integer, notnull:  true }
+    column_count:  {  type:  integer, notnull:  true }
+  relations:
+    TableId:  { class:  TableName, local:  table_id, foreign:  table_id, foreignAlias:  TableTableStatisticFk }
+  indexes:
